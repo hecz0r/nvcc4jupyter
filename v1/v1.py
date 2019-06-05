@@ -5,7 +5,7 @@ import uuid
 
 from IPython.core.magic import Magics, cell_magic, magics_class
 
-compiler = '/usr/local/cuda/bin/nvcc'
+compiler = '/usr/local/cuda/bin/nvcc -arch=sm_30'
 ext = '.cu'
 
 
